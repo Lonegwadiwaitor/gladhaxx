@@ -36,15 +36,15 @@ Modifications made to the compiler, VM, and other various areas of Luau means th
 ## Media
 <details>
   <summary>Development Videos</summary><br>
-  <video src="https://cdn.discordapp.com/attachments/939505697358503975/1169417262260826242/yielding.mp4" controls="controls" style="max-width: 750px;"></video>
-  <video src="https://cdn.discordapp.com/attachments/939505697358503975/1169417264580264116/imgui_testing_on_uwp.mp4" controls="controls" style="max-width: 750px;"></video>
-  <video src="https://cdn.discordapp.com/attachments/939505697358503975/1169417265469468863/imgui_testing_on_uwp_2.mp4" controls="controls" style="max-width: 750px;"></video>
-  <video src="https://cdn.discordapp.com/attachments/939505697358503975/1169417263292633209/simplespy.mp4" controls="controls" style="max-width: 750px;"></video>
+  <video src="https://github.com/Lonegwadiwaitor/gladhaxx/assets/48674805/d7848543-2eea-4aa9-8790-f681502f655a" controls="controls" style="max-width: 750px;"></video>
+  <video src="https://github.com/Lonegwadiwaitor/gladhaxx/assets/48674805/d2fd6b16-9488-4c94-84bd-17fcfea5295d" controls="controls" style="max-width: 750px;"></video>
+  <video src="https://github.com/Lonegwadiwaitor/gladhaxx/assets/48674805/46ec0967-2b8c-4952-98d7-1ab7f893cc7e" controls="controls" style="max-width: 750px;"></video>
+  <video src="https://github.com/Lonegwadiwaitor/gladhaxx/assets/48674805/3d94fde1-bd71-42ad-a22d-b5af3b22c157" controls="controls" style="max-width: 750px;"></video>
 </details>
 <details>
   <summary>Being <i>naughty.</i></summary><br>
   <img src="https://media.discordapp.net/attachments/1133174241693532170/1133933322964312115/image.png" style="max-width: 750px;"></img>
-  <video src="https://cdn.discordapp.com/attachments/939505697358503975/1169417266362863626/naughty.mp4" controls="controls" style="max-width: 750px;"></video>
+  <video src="https://github.com/Lonegwadiwaitor/gladhaxx/assets/48674805/8595f883-1870-4a00-aa74-edd0d34bf092" controls="controls" style="max-width: 750px;"></video>
 </details>
 
 ## Additional Credits
