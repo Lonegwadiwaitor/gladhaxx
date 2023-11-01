@@ -1,0 +1,1410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{6ba0ddef-a876-4ebc-823d-e9b62c49d9eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx">
+      <UniqueIdentifier>{bd305f91-e910-47b5-842e-70c8a6713bb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="directx">
+      <UniqueIdentifier>{7d74fafa-c81b-4201-a808-1f533ab6ac2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx\implement">
+      <UniqueIdentifier>{d5cb5651-59ae-4e19-a41e-275993692e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx\bypass">
+      <UniqueIdentifier>{c1d5b88b-dcc9-4ee1-a843-74be8599d6a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx\scheduler">
+      <UniqueIdentifier>{779d5a64-db72-40b3-acbd-8a86730293bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx\runtime">
+      <UniqueIdentifier>{b07b6dc9-14b5-4ef7-9a29-625426a1309c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries">
+      <UniqueIdentifier>{dd7ecaaa-e834-4aa7-ba75-9470b913cd47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\cryptography">
+      <UniqueIdentifier>{02c6d21d-6645-4ce5-bb2b-2da801521111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\os">
+      <UniqueIdentifier>{03a4c0ba-065b-4b1c-ba57-d691751ab87b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\imgui">
+      <UniqueIdentifier>{3c2a8dbf-f044-435c-ab7a-20c302d99a76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\kiero">
+      <UniqueIdentifier>{e37f4b03-b55d-4b05-a9d7-23946978913a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="directx\imgui">
+      <UniqueIdentifier>{8b197f37-358a-4de5-b19c-a9b713e47910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="directx\draw">
+      <UniqueIdentifier>{58d88660-91f3-4e85-a61b-d44c6251d5e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx\libraries">
+      <UniqueIdentifier>{d89415f1-35e8-429e-8c42-942bdcc31f8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="security">
+      <UniqueIdentifier>{a8bbebcd-00ca-4cd9-ad09-01cdd94775ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="security\themida">
+      <UniqueIdentifier>{27ea1be6-c43a-45eb-a0c5-699869a85700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{a73ff185-ab0e-4c68-84c5-a4fafa833da1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx\luau">
+      <UniqueIdentifier>{5383c8ee-bddd-4e15-992d-beb787441b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx\luau\Compiler">
+      <UniqueIdentifier>{97f2c037-4f0f-4c96-bb5a-cf4a2d85244f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx\luau\VM">
+      <UniqueIdentifier>{a74ab484-fb7e-4bb1-a651-a389e35d2466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx\luau\Compiler\include">
+      <UniqueIdentifier>{7d40ad8d-6dce-49ac-b6db-2baf3d65f0bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx\luau\Compiler\src">
+      <UniqueIdentifier>{2432bbed-7671-4111-be8e-863821605134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx\luau\VM\include">
+      <UniqueIdentifier>{555f2a62-64a9-48a6-9b87-4984e4b4c41c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx\luau\VM\src">
+      <UniqueIdentifier>{497329ec-762d-4e8b-9fa0-4628de9c44c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx\luau\Compiler\include\Luau">
+      <UniqueIdentifier>{90f4373c-0b7b-4dc5-adc1-d983843d695f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx\luau\Analysis">
+      <UniqueIdentifier>{2ea7a927-9914-4a0f-bd79-624662eb2acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx\luau\Ast">
+      <UniqueIdentifier>{7461a8f9-49c3-459f-b8ad-9c1a3becc5f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx\luau\CodeGen">
+      <UniqueIdentifier>{7ae91941-7d52-4c8c-8087-6361b6c91161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx\luau\Common">
+      <UniqueIdentifier>{0c9cf1be-2057-47cd-8e25-c78ea5c2e550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx\luau\Analysis\include">
+      <UniqueIdentifier>{6cfc7a77-17f6-4bec-8110-7fb6426ceec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx\luau\Analysis\src">
+      <UniqueIdentifier>{af9e2866-4033-4076-8d87-4fff7c5527d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx\luau\Ast\include">
+      <UniqueIdentifier>{4ee3932b-23a9-453b-8d07-dc5e4e8cd22b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx\luau\Ast\src">
+      <UniqueIdentifier>{dad27c3d-3adc-40ea-a1bc-3dd282aed0ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx\luau\CodeGen\include">
+      <UniqueIdentifier>{fdfac5df-3eec-462e-a85e-d7e898367415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx\luau\CodeGen\src">
+      <UniqueIdentifier>{ef844bef-dbc7-47a5-ae72-9d93a2a66bfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx\luau\Common\include">
+      <UniqueIdentifier>{fb25fce6-1691-45b7-b16e-90140045315b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx\luau\Common\src">
+      <UniqueIdentifier>{9513d052-0f6f-495b-94a7-fb554fb8340f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx\luau\Ast\include\Luau">
+      <UniqueIdentifier>{2b14372b-433f-4e5e-aec4-1f8cd06b7719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx\luau\CodeGen\include\Luau">
+      <UniqueIdentifier>{2aeeab22-dbcc-4d96-96cd-8c6d66b5c0d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx\luau\Common\include\Luau">
+      <UniqueIdentifier>{837f029b-0219-46e2-96ed-6a377a914a8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx\luau\Analysis\include\Luau">
+      <UniqueIdentifier>{23c8f489-844f-475a-98d6-e7894d0d79a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="directx\ui">
+      <UniqueIdentifier>{6f3a7b56-d56e-485f-8106-71e69dd3b90e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbx\sync">
+      <UniqueIdentifier>{5253eefe-040d-4d78-944b-df36b5cf2e6d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\src.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\implement\closure.cpp">
+      <Filter>rbx\implement</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\implement\env.cpp">
+      <Filter>rbx\implement</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\scheduler\task_scheduler.cpp">
+      <Filter>rbx\scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\bypass\console.cpp">
+      <Filter>rbx\bypass</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\implement\table.cpp">
+      <Filter>rbx\implement</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\implement\input.cpp">
+      <Filter>rbx\implement</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\implement\instance.cpp">
+      <Filter>rbx\implement</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\cryptography\aes.cpp">
+      <Filter>libraries\cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\cryptography\base64.cpp">
+      <Filter>libraries\cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\os\file.cpp">
+      <Filter>libraries\os</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\kiero\kiero.cpp">
+      <Filter>libraries\kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\imgui\button.cpp">
+      <Filter>directx\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\imgui\check_box.cpp">
+      <Filter>directx\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\imgui\child.cpp">
+      <Filter>directx\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\imgui\color_picker.cpp">
+      <Filter>directx\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\imgui\combo_box.cpp">
+      <Filter>directx\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\imgui\container.cpp">
+      <Filter>directx\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\imgui\label.cpp">
+      <Filter>directx\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\imgui\radio_box.cpp">
+      <Filter>directx\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\imgui\slider.cpp">
+      <Filter>directx\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\imgui\tab_selector.cpp">
+      <Filter>directx\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\imgui\text_box.cpp">
+      <Filter>directx\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\imgui\tool_tip.cpp">
+      <Filter>directx\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\imgui\tree_view.cpp">
+      <Filter>directx\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\imgui\window.cpp">
+      <Filter>directx\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\imgui\util.cpp">
+      <Filter>directx\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\draw\element.cpp">
+      <Filter>directx\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\draw\circle.cpp">
+      <Filter>directx\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\draw\line.cpp">
+      <Filter>directx\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\draw\quad.cpp">
+      <Filter>directx\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\draw\square.cpp">
+      <Filter>directx\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\draw\text.cpp">
+      <Filter>directx\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\imgui\component.cpp">
+      <Filter>directx\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\libraries\draw.cpp">
+      <Filter>rbx\libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\libraries\imgui.cpp">
+      <Filter>rbx\libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\libraries\util.cpp">
+      <Filter>rbx\libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\runtime\async_closure.cpp">
+      <Filter>rbx\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\draw\triangle.cpp">
+      <Filter>directx\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\implement\main.cpp">
+      <Filter>rbx\implement</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\libraries\debug.cpp">
+      <Filter>rbx\libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\hook.cpp">
+      <Filter>directx</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\os\output.cpp">
+      <Filter>libraries\os</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\libraries\smh.cpp">
+      <Filter>rbx\libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\imgui\key_bind.cpp">
+      <Filter>directx\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\cryptography\random.cpp">
+      <Filter>libraries\cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\cryptography\sha512.cpp">
+      <Filter>libraries\cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\string.cpp">
+      <Filter>libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\os\bios.cpp">
+      <Filter>libraries\os</Filter>
+    </ClCompile>
+    <ClCompile Include="util\socket_client.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\imgui\search_box.cpp">
+      <Filter>directx\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\imgui\message_box.cpp">
+      <Filter>directx\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\VM\src\lapi.cpp">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\VM\src\laux.cpp">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\VM\src\ldebug.cpp">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\VM\src\ldo.cpp">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\VM\src\lfunc.cpp">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\VM\src\lgc.cpp">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\VM\src\linit.cpp">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\VM\src\lmem.cpp">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\VM\src\lobject.cpp">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\VM\src\lstate.cpp">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\VM\src\lstring.cpp">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\VM\src\ltable.cpp">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\VM\src\ltm.cpp">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\VM\src\ludata.cpp">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\VM\src\lvmexecute.cpp">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\VM\src\lvmutils.cpp">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\VM\src\lnumprint.cpp">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\VM\src\lbaselib.cpp">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\VM\src\lbitlib.cpp">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\VM\src\lbuiltins.cpp">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\VM\src\lcorolib.cpp">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\VM\src\ldblib.cpp">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\VM\src\lgcdebug.cpp">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\VM\src\lmathlib.cpp">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\VM\src\loslib.cpp">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\VM\src\lperf.cpp">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\VM\src\lstrlib.cpp">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\VM\src\ltablib.cpp">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\VM\src\lutf8lib.cpp">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\VM\src\lvmload.cpp">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\implement\hooks.cpp">
+      <Filter>rbx\implement</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\Anyification.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\ApplyTypeFunction.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\AstJsonEncoder.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\AstQuery.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\Autocomplete.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\BuiltinDefinitions.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\Clone.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\Config.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\Constraint.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\ConstraintGraphBuilder.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\ConstraintSolver.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\DataFlowGraph.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\DcrLogger.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\Def.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\Differ.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\EmbeddedBuiltinDefinitions.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\Error.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\Frontend.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\Instantiation.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\IostreamHelpers.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\JsonEmitter.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\Linter.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\LValue.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\Module.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\Normalize.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\Quantify.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\Refinement.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\RequireTracer.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\Scope.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\Simplify.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\Substitution.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\Symbol.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\ToDot.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\TopoSortStatements.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\ToString.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\Transpiler.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\TxnLog.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\Type.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\TypeArena.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\TypeAttach.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\TypeChecker2.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\TypedAllocator.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\TypeFamily.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\TypeInfer.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\TypePack.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\TypeUtils.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\Unifiable.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Analysis\src\Unifier.cpp">
+      <Filter>rbx\luau\Analysis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Ast\src\Ast.cpp">
+      <Filter>rbx\luau\Ast\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Ast\src\Confusables.cpp">
+      <Filter>rbx\luau\Ast\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Ast\src\Lexer.cpp">
+      <Filter>rbx\luau\Ast\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Ast\src\Location.cpp">
+      <Filter>rbx\luau\Ast\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Ast\src\Parser.cpp">
+      <Filter>rbx\luau\Ast\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Ast\src\StringUtils.cpp">
+      <Filter>rbx\luau\Ast\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Ast\src\TimeTrace.cpp">
+      <Filter>rbx\luau\Ast\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\CodeGen\src\AssemblyBuilderA64.cpp">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\CodeGen\src\AssemblyBuilderX64.cpp">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\CodeGen\src\CodeAllocator.cpp">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\CodeGen\src\CodeBlockUnwind.cpp">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\CodeGen\src\CodeGen.cpp">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\CodeGen\src\CodeGenA64.cpp">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\CodeGen\src\CodeGenAssembly.cpp">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\CodeGen\src\CodeGenUtils.cpp">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\CodeGen\src\CodeGenX64.cpp">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\CodeGen\src\EmitBuiltinsX64.cpp">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\CodeGen\src\EmitCommonX64.cpp">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\CodeGen\src\EmitInstructionX64.cpp">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\CodeGen\src\IrAnalysis.cpp">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\CodeGen\src\IrBuilder.cpp">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\CodeGen\src\IrCallWrapperX64.cpp">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\CodeGen\src\IrDump.cpp">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\CodeGen\src\IrLoweringA64.cpp">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\CodeGen\src\IrLoweringX64.cpp">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\CodeGen\src\IrRegAllocA64.cpp">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\CodeGen\src\IrRegAllocX64.cpp">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\CodeGen\src\IrTranslateBuiltins.cpp">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\CodeGen\src\IrTranslation.cpp">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\CodeGen\src\IrUtils.cpp">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\CodeGen\src\IrValueLocationTracking.cpp">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\CodeGen\src\lcodegen.cpp">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\CodeGen\src\NativeState.cpp">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\CodeGen\src\OptimizeConstProp.cpp">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\CodeGen\src\OptimizeFinalX64.cpp">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\CodeGen\src\UnwindBuilderDwarf2.cpp">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\CodeGen\src\UnwindBuilderWin.cpp">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Compiler\src\BuiltinFolding.cpp">
+      <Filter>rbx\luau\Compiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Compiler\src\Builtins.cpp">
+      <Filter>rbx\luau\Compiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Compiler\src\BytecodeBuilder.cpp">
+      <Filter>rbx\luau\Compiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Compiler\src\Compiler.cpp">
+      <Filter>rbx\luau\Compiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Compiler\src\ConstantFolding.cpp">
+      <Filter>rbx\luau\Compiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Compiler\src\CostModel.cpp">
+      <Filter>rbx\luau\Compiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Compiler\src\lcode.cpp">
+      <Filter>rbx\luau\Compiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Compiler\src\TableShape.cpp">
+      <Filter>rbx\luau\Compiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Compiler\src\Types.cpp">
+      <Filter>rbx\luau\Compiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\luau\Compiler\src\ValueTracking.cpp">
+      <Filter>rbx\luau\Compiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\implement\http.cpp">
+      <Filter>rbx\implement</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\implement\script.cpp">
+      <Filter>rbx\implement</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\implement\io.cpp">
+      <Filter>rbx\implement</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\imgui\imgui.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\imgui\imgui_demo.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\imgui\imgui_draw.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\imgui\imgui_impl_dx11.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\imgui\imgui_impl_uwp.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\imgui\imgui_tables.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\imgui\imgui_widgets.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\libraries\base64.cpp">
+      <Filter>rbx\libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\ui\script_editor.cpp">
+      <Filter>directx\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\implement\console.cpp">
+      <Filter>rbx\implement</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\sync\auxillary.cpp">
+      <Filter>rbx\sync</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\src.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\implement\closure.hpp">
+      <Filter>rbx\implement</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\implement\env.hpp">
+      <Filter>rbx\implement</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\implement\instance.hpp">
+      <Filter>rbx\implement</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\scheduler\task_scheduler.hpp">
+      <Filter>rbx\scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\bypass\console.hpp">
+      <Filter>rbx\bypass</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\bypass\obfuscation.hpp">
+      <Filter>rbx\bypass</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\implement\table.hpp">
+      <Filter>rbx\implement</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\implement\input.hpp">
+      <Filter>rbx\implement</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\cryptography\aes.hpp">
+      <Filter>libraries\cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\cryptography\base64.hpp">
+      <Filter>libraries\cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\os\file.hpp">
+      <Filter>libraries\os</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\os\output.hpp">
+      <Filter>libraries\os</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\kiero\kiero.h">
+      <Filter>libraries\kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\imgui\button.hpp">
+      <Filter>directx\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\imgui\check_box.hpp">
+      <Filter>directx\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\imgui\child.hpp">
+      <Filter>directx\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\imgui\color_picker.hpp">
+      <Filter>directx\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\imgui\combo_box.hpp">
+      <Filter>directx\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\imgui\container.hpp">
+      <Filter>directx\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\imgui\label.hpp">
+      <Filter>directx\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\imgui\radio_box.hpp">
+      <Filter>directx\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\imgui\slider.hpp">
+      <Filter>directx\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\imgui\tab_selector.hpp">
+      <Filter>directx\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\imgui\text_box.hpp">
+      <Filter>directx\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\imgui\tool_tip.hpp">
+      <Filter>directx\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\imgui\tree_view.hpp">
+      <Filter>directx\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\imgui\window.hpp">
+      <Filter>directx\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\imgui\util.hpp">
+      <Filter>directx\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\draw\element.hpp">
+      <Filter>directx\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pch.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\draw\circle.hpp">
+      <Filter>directx\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\draw\line.hpp">
+      <Filter>directx\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\draw\quad.hpp">
+      <Filter>directx\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\draw\square.hpp">
+      <Filter>directx\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\draw\text.hpp">
+      <Filter>directx\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\imgui\component.hpp">
+      <Filter>directx\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\libraries\imgui.hpp">
+      <Filter>rbx\libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\libraries\draw.hpp">
+      <Filter>rbx\libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\libraries\util.hpp">
+      <Filter>rbx\libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\runtime\async_closure.hpp">
+      <Filter>rbx\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\singleton.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\draw\triangle.hpp">
+      <Filter>directx\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\implement\main.hpp">
+      <Filter>rbx\implement</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\libraries\debug.hpp">
+      <Filter>rbx\libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\hook.hpp">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\libraries\smh.hpp">
+      <Filter>rbx\libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\imgui\key_bind.hpp">
+      <Filter>directx\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\cryptography\random.hpp">
+      <Filter>libraries\cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\cryptography\sha512.hpp">
+      <Filter>libraries\cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="security\themida\SecureEngineCustomVMs.h">
+      <Filter>security\themida</Filter>
+    </ClInclude>
+    <ClInclude Include="security\themida\SecureEngineCustomVMs_BorlandC_inline.h">
+      <Filter>security\themida</Filter>
+    </ClInclude>
+    <ClInclude Include="security\themida\SecureEngineCustomVMs_GNU_inline.h">
+      <Filter>security\themida</Filter>
+    </ClInclude>
+    <ClInclude Include="security\themida\SecureEngineCustomVMs_ICL_inline.h">
+      <Filter>security\themida</Filter>
+    </ClInclude>
+    <ClInclude Include="security\themida\SecureEngineCustomVMs_LCC_inline.h">
+      <Filter>security\themida</Filter>
+    </ClInclude>
+    <ClInclude Include="security\themida\SecureEngineCustomVMs_VC_inline.h">
+      <Filter>security\themida</Filter>
+    </ClInclude>
+    <ClInclude Include="security\themida\ThemidaSDK.h">
+      <Filter>security\themida</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\cryptography\XorS.h">
+      <Filter>libraries\cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\string.hpp">
+      <Filter>libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\os\bios.hpp">
+      <Filter>libraries\os</Filter>
+    </ClInclude>
+    <ClInclude Include="util\socket_client.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\imgui\search_box.hpp">
+      <Filter>directx\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\lz4.hpp">
+      <Filter>libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\imgui\message_box.hpp">
+      <Filter>directx\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\ehook.hpp">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\VM\include\lua.h">
+      <Filter>rbx\luau\VM\include</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\VM\include\luaconf.h">
+      <Filter>rbx\luau\VM\include</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\VM\include\lualib.h">
+      <Filter>rbx\luau\VM\include</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\VM\src\lapi.h">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\VM\src\lbytecode.h">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\VM\src\lcommon.h">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\VM\src\ldebug.h">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\VM\src\ldo.h">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\VM\src\lfunc.h">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\VM\src\lgc.h">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\VM\src\lmem.h">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\VM\src\lnumutils.h">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\VM\src\lobject.h">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\VM\src\lstate.h">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\VM\src\lstring.h">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\VM\src\ltable.h">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\VM\src\ltm.h">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\VM\src\ludata.h">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\VM\src\lvm.h">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\VM\src\lbuiltins.h">
+      <Filter>rbx\luau\VM\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\implement\hooks.hpp">
+      <Filter>rbx\implement</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\Anyification.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\ApplyTypeFunction.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\AstJsonEncoder.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\AstQuery.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\Autocomplete.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\Breadcrumb.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\BuiltinDefinitions.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\Clone.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\Config.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\Constraint.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\ConstraintGraphBuilder.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\ConstraintSolver.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\ControlFlow.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\DataFlowGraph.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\DcrLogger.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\Def.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\Differ.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\Documentation.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\Error.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\FileResolver.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\Frontend.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\InsertionOrderedMap.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\Instantiation.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\IostreamHelpers.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\JsonEmitter.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\Linter.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\LValue.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\Metamethods.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\Module.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\ModuleResolver.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\Normalize.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\NotNull.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\Predicate.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\Quantify.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\RecursionCounter.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\Refinement.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\RequireTracer.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\Scope.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\Simplify.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\Substitution.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\Symbol.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\ToDot.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\TopoSortStatements.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\ToString.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\Transpiler.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\TxnLog.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\Type.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\TypeArena.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\TypeAttach.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\TypeChecker2.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\TypedAllocator.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\TypeFamily.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\TypeInfer.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\TypePack.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\TypeUtils.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\Unifiable.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\Unifier.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\UnifierSharedState.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\Variant.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Analysis\include\Luau\VisitType.h">
+      <Filter>rbx\luau\Analysis\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Ast\include\Luau\Ast.h">
+      <Filter>rbx\luau\Ast\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Ast\include\Luau\Confusables.h">
+      <Filter>rbx\luau\Ast\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Ast\include\Luau\Lexer.h">
+      <Filter>rbx\luau\Ast\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Ast\include\Luau\Location.h">
+      <Filter>rbx\luau\Ast\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Ast\include\Luau\ParseOptions.h">
+      <Filter>rbx\luau\Ast\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Ast\include\Luau\Parser.h">
+      <Filter>rbx\luau\Ast\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Ast\include\Luau\ParseResult.h">
+      <Filter>rbx\luau\Ast\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Ast\include\Luau\StringUtils.h">
+      <Filter>rbx\luau\Ast\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Ast\include\Luau\TimeTrace.h">
+      <Filter>rbx\luau\Ast\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\include\Luau\AddressA64.h">
+      <Filter>rbx\luau\CodeGen\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\include\Luau\AssemblyBuilderA64.h">
+      <Filter>rbx\luau\CodeGen\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\include\Luau\AssemblyBuilderX64.h">
+      <Filter>rbx\luau\CodeGen\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\include\Luau\CodeAllocator.h">
+      <Filter>rbx\luau\CodeGen\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\include\Luau\CodeBlockUnwind.h">
+      <Filter>rbx\luau\CodeGen\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\include\Luau\CodeGen.h">
+      <Filter>rbx\luau\CodeGen\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\include\Luau\ConditionA64.h">
+      <Filter>rbx\luau\CodeGen\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\include\Luau\ConditionX64.h">
+      <Filter>rbx\luau\CodeGen\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\include\Luau\IrAnalysis.h">
+      <Filter>rbx\luau\CodeGen\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\include\Luau\IrBuilder.h">
+      <Filter>rbx\luau\CodeGen\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\include\Luau\IrCallWrapperX64.h">
+      <Filter>rbx\luau\CodeGen\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\include\Luau\IrData.h">
+      <Filter>rbx\luau\CodeGen\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\include\Luau\IrDump.h">
+      <Filter>rbx\luau\CodeGen\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\include\Luau\IrRegAllocX64.h">
+      <Filter>rbx\luau\CodeGen\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\include\Luau\IrUtils.h">
+      <Filter>rbx\luau\CodeGen\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\include\Luau\Label.h">
+      <Filter>rbx\luau\CodeGen\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\include\Luau\OperandX64.h">
+      <Filter>rbx\luau\CodeGen\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\include\Luau\OptimizeConstProp.h">
+      <Filter>rbx\luau\CodeGen\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\include\Luau\OptimizeFinalX64.h">
+      <Filter>rbx\luau\CodeGen\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\include\Luau\RegisterA64.h">
+      <Filter>rbx\luau\CodeGen\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\include\Luau\RegisterX64.h">
+      <Filter>rbx\luau\CodeGen\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\include\Luau\UnwindBuilder.h">
+      <Filter>rbx\luau\CodeGen\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\include\Luau\UnwindBuilderDwarf2.h">
+      <Filter>rbx\luau\CodeGen\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\include\Luau\UnwindBuilderWin.h">
+      <Filter>rbx\luau\CodeGen\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\include\luacodegen.h">
+      <Filter>rbx\luau\CodeGen\include</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\src\BitUtils.h">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\src\ByteUtils.h">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\src\CodeGenA64.h">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\src\CodeGenLower.h">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\src\CodeGenUtils.h">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\src\CodeGenX64.h">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\src\EmitBuiltinsX64.h">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\src\EmitCommon.h">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\src\EmitCommonA64.h">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\src\EmitCommonX64.h">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\src\EmitInstructionX64.h">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\src\IrLoweringA64.h">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\src\IrLoweringX64.h">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\src\IrRegAllocA64.h">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\src\IrTranslateBuiltins.h">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\src\IrTranslation.h">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\src\IrValueLocationTracking.h">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\CodeGen\src\NativeState.h">
+      <Filter>rbx\luau\CodeGen\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Common\include\Luau\Bytecode.h">
+      <Filter>rbx\luau\Common\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Common\include\Luau\Common.h">
+      <Filter>rbx\luau\Common\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Common\include\Luau\DenseHash.h">
+      <Filter>rbx\luau\Common\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Common\include\Luau\ExperimentalFlags.h">
+      <Filter>rbx\luau\Common\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Compiler\include\Luau\BytecodeBuilder.h">
+      <Filter>rbx\luau\Compiler\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Compiler\include\Luau\Compiler.h">
+      <Filter>rbx\luau\Compiler\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Compiler\include\luacode.h">
+      <Filter>rbx\luau\Compiler\include</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Compiler\src\BuiltinFolding.h">
+      <Filter>rbx\luau\Compiler\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Compiler\src\Builtins.h">
+      <Filter>rbx\luau\Compiler\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Compiler\src\ConstantFolding.h">
+      <Filter>rbx\luau\Compiler\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Compiler\src\CostModel.h">
+      <Filter>rbx\luau\Compiler\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Compiler\src\TableShape.h">
+      <Filter>rbx\luau\Compiler\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Compiler\src\Types.h">
+      <Filter>rbx\luau\Compiler\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\luau\Compiler\src\ValueTracking.h">
+      <Filter>rbx\luau\Compiler\src</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\implement\http.hpp">
+      <Filter>rbx\implement</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\implement\script.hpp">
+      <Filter>rbx\implement</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\implement\io.hpp">
+      <Filter>rbx\implement</Filter>
+    </ClInclude>
+    <ClInclude Include="util\safe_queue.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\imconfig.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\imgui.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\imgui_impl_dx11.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\imgui_impl_uwp.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\imgui_internal.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\imstb_rectpack.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\imstb_textedit.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\imstb_truetype.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="util\string_utils.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\libraries\base64.hpp">
+      <Filter>rbx\libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\ui\script_editor.hpp">
+      <Filter>directx\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\implement\console.hpp">
+      <Filter>rbx\implement</Filter>
+    </ClInclude>
+    <ClInclude Include="rbx\sync\auxillary.hpp">
+      <Filter>rbx\sync</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>
