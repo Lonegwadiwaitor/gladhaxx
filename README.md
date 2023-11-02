@@ -12,7 +12,7 @@
 
 Modifications made to the compiler, VM, and other various areas of Luau means that this version of Luau works with the Roblox Client!
 
-### A fully fledged C++ exploit, including many external libraries:
+### A fully fledged C++ exploit, including many custom libraries:
 
 <div align="center"><b>Core libraries</b>:<br></div>
 <b>Closure</b> library, including: hookfunction, hookmetamethod, newcclosure, islclosure, iscclosure, clonefunction, cloneref, isourclosure, and more.<br>
